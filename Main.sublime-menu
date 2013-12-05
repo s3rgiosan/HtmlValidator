@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      { "id": "end" },
+      { "command": "html_validator", "caption": "HTML Validator" }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "HTML Validator",
+            "children":
+            [
+              {
+                "command": "open_file",
+                "args": { "file": "${packages}/HtmlValidator/HtmlValidator.sublime-settings" },
+                "caption": "Settings – Default"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
